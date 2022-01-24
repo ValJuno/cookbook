@@ -35,6 +35,122 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # date management package
+  intl: ^0.17.0
+
+  # avatar with name initials package
+  avatar_letter: ^1.0.1
+
+  # dart html package
+  html: ^0.15.0
+
+  # widget for html
+  #  flutter_html: ^2.1.0
+
+  # html escaping
+  html_unescape: ^2.0.0
+
+  # library for object comparison
+  equatable: ^2.0.0
+
+  # library for opening url in the correct app
+  url_launcher: ^6.0.3
+
+  # open files in native apps
+  open_file: ^3.2.1
+
+  # localization
+  flutter_localizations:
+    sdk: flutter
+
+  # fetching data via http protocol
+  http: ^0.13.3
+
+  # advanced http
+  dio: ^4.0.0
+
+  # translation
+  i18n_extension: ^4.0.3
+
+  # search list widget
+  autocomplete_textfield: ^1.7.3
+
+  # account storage
+  flutter_secure_storage: ^4.2.0
+
+  # pagination
+  flutter_paginator: ^0.0.6
+
+  # logging
+  logger: ^1.0.0
+
+  # path
+  path: ^1.8.0
+  path_provider: ^2.0.1
+
+  # calendar view
+  flutter_calendar_carousel: ^2.0.1
+
+  # date comparison
+  date_calendar: ^0.2.1
+
+  # get device locale
+  devicelocale: ^0.4.1
+
+  # language switch
+  country_pickers: ^2.0.0
+
+  # close app with dblclick
+  double_back_to_close_app: ^2.0.1
+
+  # phone access permissions
+  permission_handler: ^7.1.0
+
+  # datetime picker
+  datetime_picker_formfield: ^2.0.0
+
+  #validate email
+  email_validator: ^2.0.1
+
+  # jwt decode
+  jwt_decoder: ^2.0.1
+
+  # device orientation
+  native_device_orientation: ^1.0.0
+
+  # download progress indicator
+  progress_dialog: ^1.2.4
+
+  # upgrade version alert
+  upgrader: ^3.2.1
+
+  # xml
+  xml: ^5.1.0
+
+  # read app information
+  package_info: ^2.0.0
+
+  # money text field
+  flutter_masked_text: ^0.8.0
+
+  # open app from external link
+  uni_links: ^0.5.1
+
+  # expandable widgets
+  expandable: ^5.0.1
+
+  #icone font awesome
+  font_awesome_flutter: ^9.0.0
+
+  #web viewer in app
+  flutter_inappwebview: ^5.3.2
+
+  # handler dark theme
+  theme_mode_handler: ^3.0.0
+
+  # notifications
+  flutter_local_notifications: ^5.0.0+4
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -73,17 +189,14 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+  fonts:
+    - family: TitilliumWeb
+      fonts:
+        - asset: fonts/TitilliumWeb-Regular.ttf
+          weight: 400
+        - asset: fonts/TitilliumWeb-SemiBold.ttf
+          weight: 600
+        - asset: fonts/TitilliumWeb-Bold.ttf
+          weight: 700
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
